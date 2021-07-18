@@ -53,20 +53,3 @@ bool UTextFileManager::LoadArrayText(TArray<FString>& StringArray, FString FullF
     return true;
 }
 
-bool UTextFileManager::PlayerArrayToStruct(FString PlayerStruct, TArray<FString>& ArrayToParse)
-{
-    TArray<FString> NewArray;
-
-    if (ArrayToParse.Num() <= 0)
-    {
-        return false; 
-    }
-
-    // for each (FString StringItem in ArrayToParse)
-    // {
-    //    
-   //  }
-
-    // S_PlayerSave TestPlayer {1, "Riane", "God", "Admin", "Moderator"}
-}
-

@@ -18,7 +18,4 @@ class LIFE_API UTextFileManager : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Load"))
 		static bool LoadArrayText(TArray<FString>& StringArray, FString FullFilePath);
-
-	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Array to Struct"))
-		static bool PlayerArrayToStruct(FString PlayerStruct, TArray<FString>& ArrayToParse);
 };
