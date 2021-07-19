@@ -1,7 +1,7 @@
 # Life
  Dedicated Server Project
  
- The purpose of this project is not to create an MMO, but an easy to use system for an MMO to be implemented. Most of the coding is done via blueprints with some minor backend codding in C++ files. The purpose is for anyone with very basic understanding to be able to build a functioning MMO with a dedicated, save server, without a headache.
+ The purpose of this project is not to create an MMO, but an easy to use system for an MMO to be implemented. Most of the coding is done via blueprints with some minor backend codding in C++ files. The purpose is for anyone with very basic understanding to be able to build a functioning MMO with a dedicated, safe server, without a headache.
 
 TO DO:
 - Setup encrypted password check.
