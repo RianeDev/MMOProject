@@ -4,6 +4,7 @@
  The purpose of this project is not to create an MMO, but an easy to use system for an MMO to be implemented. Most of the coding is done via blueprints with some minor backend codding in C++ files. The purpose is for anyone with very basic understanding to be able to build a functioning MMO with a dedicated, safe server, without a headache.
 
 TO DO:
+- Map transitioning. Currently player data is being wiped between map transitions. Need to make this work with seamless travel.
 - Setup encrypted password check.
 
 IN PROGRESS: 
